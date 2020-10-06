@@ -76,22 +76,7 @@ class _State extends State<Propics> {
           )
         ],
       ),
-      // GridView.builder(
-      //   itemCount: data==null ?0: data.length,
-      //   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
-      //     childAspectRatio: 0.6,
-      //     mainAxisSpacing: 6.0,
-      //     crossAxisSpacing: 6.0,
-      //   ),  itemBuilder: (context,index){
-      //   return GridTile(
-      //     child:Container(
-      //       child:Container(
-      //           decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),),
-      //
-      //           child: Image.network(data[index]['url'],fit: BoxFit.cover,)),
-      //     ),
-      //   );
-      // },),
+
 
     );
   }
